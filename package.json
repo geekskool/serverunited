@@ -1,0 +1,17 @@
+{
+  "name": "serverunited",
+  "version": "0.0.2",
+  "description": "A simple http server in nodejs",
+  "dependencies": {
+    "node-uuid": "^1.4.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "keywords": [
+    "http"
+  ],
+  "author": "Varun Sharma <varunited@gmail.com> (http://github.com/varunited)",
+  "license": "MIT"
+}
