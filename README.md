@@ -15,9 +15,11 @@ var server = require('serverunited');
 ### Set-up:
 
  - To start the server, use server.startServer(port, address)
+
     ```js
     server.startServer(8080, '127.0.0.1');
     ```
+
  - Routing mechanism
 
     - All the static files have to be enclosed in 'public' directory handled by staticFileHandler(request, response) function.
