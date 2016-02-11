@@ -30,9 +30,9 @@ var server = require('serverunited');
       - path is the requested path by the browser
       - function is the user-defined function
 
-    ```js
-    server.addRoute('get', '/', home);
-    ```
+        ```js
+        server.addRoute('get', '/', home);
+        ```
 
     - addRoute(method, path, function) binds the function to a set of method and path.
         ```js
